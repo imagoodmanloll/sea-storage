@@ -84,7 +84,7 @@ def download_file(url, download_folder):
         sys.stdout.write('\n')
         print(f"{Fore.RED}[FAILED]{Style.RESET_ALL} {Fore.WHITE}Error: {e}{Style.RESET_ALL}")
 
-file_url = "https://download1527.mediafire.com/mw65rct6uz4g9TjT58N_eovkkB5VQgx3tziotLrYOTZu2mqaYm8NZPNjwpsFYugXDsENph8L8ZI9h98pmIVoYRIfImKsMiOnpJki7LeyvK6_4O6F9QGPvVcVco4AueVsyEg2-hriw6uJJLDoWEGGlaG5YYJfB_6mw1DZ-LiXzekq/86jleya6ttgc40u/Sea.zip"
+file_url = "https://github.com/imagoodmanloll/sea-storage/releases/download/sea/Sea.zip"
 
 downloads_folder = os.path.join(os.path.expanduser("~"), "Downloads")
 
