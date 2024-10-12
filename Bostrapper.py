@@ -65,7 +65,7 @@ def download_file(url, download_folder):
         spinner_thread.start()
         
         response = requests.get(url, stream=True)
-        response.raise_for_status()  # Check for request errors
+        response.raise_for_status()
 
         filename = url.split('/')[-1]
         download_path = os.path.join(download_folder, filename)
